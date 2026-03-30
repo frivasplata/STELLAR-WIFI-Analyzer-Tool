@@ -122,3 +122,6 @@ V0.4.0-build-10
 
 When applying a zoom in or zoom out on any AP full screen page the same font size will be enforced on every other AP page.
 
+V0.4.0-build-11
+
+Improved capacity to recognize a failure at the Auth stage
