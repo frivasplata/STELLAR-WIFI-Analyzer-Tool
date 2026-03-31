@@ -125,3 +125,7 @@ When applying a zoom in or zoom out on any AP full screen page the same font siz
 V0.4.0-build-11
 
 Improved capacity to recognize a failure at the Auth stage
+
+V0.4.0-build-12
+
+Improved capacity to differentiate an association with a disassociation event in the timeline.
