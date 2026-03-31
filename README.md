@@ -126,6 +126,12 @@ V0.4.0-build-11
 
 Improved capacity to recognize a failure at the Auth stage
 
+V0.5.0-build-1
+
+When fetching logs you will see the time window this log file is including. This is very helpful when trying to understand why you are not seeing all the information since the logs within the APs are not in synch meanng that each AP has a different starting date/time.
+
+Monitor Mode has been added to allow you to have an aligned starting date/time on every AP. Monitor Mode starts a new log file on each AP at the same starting time. From that point, the program appends only the new log lines every minute so all AP monitor logs stay aligned in time. These monitor logs are shown in the webpage and support the same actions such as zoom, save, refetch/recheck, and analysis. This mode is useful when you want to capture a fresh troubleshooting window from multiple APs without mixing older log history. When Monitor Mode is stopped, the captured files are downloaded to your computer and removed from the server.
+
 V0.4.0-build-12
 
 Improved capacity to differentiate an association with a disassociation event in the timeline.
