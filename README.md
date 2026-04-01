@@ -140,3 +140,7 @@ V0.5.0-build-2
 
 Added the capacity to upload and analyze up to 4 local log files (offline analysis)
 
+V0.5.0-build-3
+
+Increased the capacity to process upto 10 APs simultaneously instead of just 4. 
+
