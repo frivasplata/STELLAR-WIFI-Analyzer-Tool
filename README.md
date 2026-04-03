@@ -144,3 +144,7 @@ V0.5.0-build-3
 
 Increased the capacity to process upto 10 APs simultaneously instead of just 4. 
 
+V0.5.0-build-4
+
+Improved the Monitor Mode capacity to automatically stop the monitor mode after 30 minutes and save all the logs gathered for a later analysis.
+
