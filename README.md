@@ -150,5 +150,5 @@ Improved the Monitor Mode capacity to automatically stop the monitor mode after 
 
 V0.5.0-build-5
 
-Date and time filter improved, no need anymore to enter manually the date and time but selecting form a calendar or clicking on some predefined filters like the last 1, 2 .. hours
+Easier log navigation by date and time. From now on there is no need to enter manually any Date and time filter. The date and time filter can now be selected from a calendar or clicking on some predefined filters like the last 1, 2 .. hours
 
