@@ -148,3 +148,7 @@ V0.5.0-build-4
 
 Improved the Monitor Mode capacity to automatically stop the monitor mode after 30 minutes and save all the logs gathered for a later analysis. You can stop manually the Monitor Mode or jst leave it and the system will stop automatically after 30 minutes, you need to accept the message to save the log files.
 
+V0.5.0-build-5
+
+Date and time filter improved, no need anymore to enter manually the date and time but selecting form a calendar or clicking on some predefined filters like the last 1, 2 .. hours
+
