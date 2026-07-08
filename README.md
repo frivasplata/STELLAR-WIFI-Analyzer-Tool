@@ -83,13 +83,13 @@ When running the Stellar WIFI Analyzer (SWA) tool in a VM, updates occur each ni
 
 Docker Option — Manual Update
 To update to the latest version, run the following three commands in sequence:
--Step 1: Pull the latest image
+
 docker pull fernandorivasplata/log-viewer:latest
--Step 2: Stop and remove the running container
+
 docker stop log-viewer && docker rm log-viewer
--Step 3: Start a new container from the updated image
-docker run -d --name log-viewer -p 3005:3005 --restart always
-fernandorivasplata/log-viewer:latest
+
+docker run -d --name log-viewer -p 3005:3005 --restart always fernandorivasplata/log-viewer:latest
+
 ⚠ Note
 Updating removes the old container. Any data or logs stored inside the container will be lost. If you
 need to preserve session data, save it before updating.
